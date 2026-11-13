@@ -15,12 +15,12 @@
 仓库根目录即技能本身，克隆时直接指定目标目录即可，**无需再复制**。下面这一行 macOS / Linux / Windows PowerShell 通用：
 
 ```bash
-git clone https://github.com/zr0628/zy "$HOME/.workbuddy/skills/中医名师"
+git clone https://github.com/zr0628/tcm-skill "$HOME/.workbuddy/skills/中医名师"
 ```
 
 也可以只发这一句给 AI：
 
-> 把 https://github.com/zr0628/zy 克隆到我的 ~/.workbuddy/skills/中医名师
+> 把 https://github.com/zr0628/tcm-skill 克隆到我的 ~/.workbuddy/skills/中医名师
 
 > **不要写成 `~/.workbuddy/...`**：`~` 只在 macOS / Linux 的 shell 里会展开，Windows PowerShell 会把它当字面字符，结果在**当前目录**下建一个名叫 `~` 的文件夹，技能装不进去。用 `$HOME` 才是两边都认的写法。
 
