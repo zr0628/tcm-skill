@@ -15,12 +15,12 @@
 仓库根目录即技能本身，克隆时直接指定目标目录即可，**无需再复制**。下面这一行 macOS / Linux / Windows PowerShell 通用：
 
 ```bash
-git clone https://github.com/zhouran0628/zy "$HOME/.workbuddy/skills/中医名师"
+git clone https://github.com/zr0628/zy "$HOME/.workbuddy/skills/中医名师"
 ```
 
 也可以只发这一句给 AI：
 
-> 把 https://github.com/zhouran0628/zy 克隆到我的 ~/.workbuddy/skills/中医名师
+> 把 https://github.com/zr0628/zy 克隆到我的 ~/.workbuddy/skills/中医名师
 
 装完目录长这样，`references/` 必须与 `SKILL.md` 同级：
 
