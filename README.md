@@ -1,6 +1,8 @@
-# 中医名师 · 基于倪海厦与李可学术思路问诊
+# 中医名师 · 问诊采集
 
 > **核心命题：患者说的第一句话，往往不能用。**
+>
+> 学术依据：倪海厦六经辨证 · 李可（扶阳 / 破格救心）
 
 一个给 AI Agent 用的中医问诊技能（Skill）。它解决的不是"问得够不够多"，而是**问到了错误的东西**——患者开口给的是判断（"湿气重""肾虚""经络不通""上火"），辨证需要的却是可观察的事实（苔厚？便溏？膝冷？尿少？）。
 
@@ -15,19 +17,19 @@
 ```bash
 # macOS / Linux
 git clone https://github.com/zhouran0628/tcm-inquiry.git \
-  "$HOME/.workbuddy/skills/中医名师·基于倪海厦与李可学术思路问诊"
+  "$HOME/.workbuddy/skills/中医名师"
 ```
 
 ```powershell
 # Windows PowerShell
 git clone https://github.com/zhouran0628/tcm-inquiry.git `
-  "$env:USERPROFILE\.workbuddy\skills\中医名师·基于倪海厦与李可学术思路问诊"
+  "$HOME\.workbuddy\skills\中医名师"
 ```
 
 装完目录长这样，`references/` 必须与 `SKILL.md` 同级：
 
 ```
-~/.workbuddy/skills/中医名师·基于倪海厦与李可学术思路问诊/
+~/.workbuddy/skills/中医名师/
 ├── SKILL.md
 └── references/
     ├── question-bank.md
