@@ -22,6 +22,8 @@ git clone https://github.com/zr0628/zy "$HOME/.workbuddy/skills/中医名师"
 
 > 把 https://github.com/zr0628/zy 克隆到我的 ~/.workbuddy/skills/中医名师
 
+> **不要写成 `~/.workbuddy/...`**：`~` 只在 macOS / Linux 的 shell 里会展开，Windows PowerShell 会把它当字面字符，结果在**当前目录**下建一个名叫 `~` 的文件夹，技能装不进去。用 `$HOME` 才是两边都认的写法。
+
 装完目录长这样，`references/` 必须与 `SKILL.md` 同级：
 
 ```
